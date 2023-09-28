@@ -51,7 +51,7 @@ class MyApp(QMainWindow):
                     return
 
             if estado == 'Q15':
-                print(f"La placa {placa} no sirve.")
+                print(f"La placa {placa} SI sirve.")
                 mensaje += f"\nLa placa {placa} es valida."
                 mensaje += f"\nEl estado final es: {estado} ."
                 self.mostrar_mensaje(mensaje)
